@@ -1,19 +1,17 @@
 <DOCTYPE!html>
 <html>
 <head>
-<title>Comments</title>
+<title></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="haikuatry.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="haikuatry.js"></script>
 <style>
-div{
-    margin-top:500px;
-    }
 </style>
 </head>
 <body>
-<nav>
+<nav id="navbar">
     <a href="index.html">
     <img src="nav_img.png" alt="Haikuatry" id="navImg">
     </a>
@@ -23,8 +21,18 @@ div{
     <a href="Haikuman.html" id="haikuman" class="link">Haikuman</a>
     <a href="Comments.html" id="comments" class="link">Comments</a>
     </nav>
-    <div class="commentbox"></div>
+	<div id="nav2">
+    <a href="" id="haiku" class="link" style="position:absolute;top:10px;">Haiku</a>
+    </div>
+    <header>
+    <img src="Comments.png" alt="Comments" id="header">
+    </header>
+    <div id="divider"></div>
+	<main id="haikuMain">
+	<div class="commentbox"></div>
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>commentBox('5637373928931328-proj')</script>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHvZBXxD9ctkd750tJPmJC4kLsHh4cESj3ebfpO5BWrjpeNA/viewform?embedded=true" width="640" height="1454" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</main>
 </body>
 </html>
